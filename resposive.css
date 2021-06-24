@@ -1,0 +1,134 @@
+@media (max-width: 1350px){
+.boxwrapper {
+    column-count: 2;
+     
+    margin-left: 215px;}
+    .CiconBox {
+        float: left;
+        width: 200px;
+        margin-right: 170px;
+    }
+}
+@media (max-width:1310px){
+
+    .CiconBox {
+        float: left;
+        width: 200px;
+        margin-right: 0px;
+    }
+    .ContactIcon {
+        width: 55%;
+        /* text-align: center; */
+        margin: 0px auto;
+        /* text-align: center!important; */
+    }
+}
+@media (max-width:1215px){
+    
+    .CiconBox {
+        width: 100%;
+        display: block;
+         
+    }
+    .ContactIcon {
+        width: 55%;
+        margin: 0px auto;
+
+    }
+
+
+}
+@media (max-width:900px) {
+    .AboutDetails img {
+        width: 45%;
+        float: none;
+        margin: 0px auto;
+    }
+     
+    .AboutDetails {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* .AboutDetails img {
+        width: 60%;
+        
+        margin: 15px auto;
+    } */
+    .AboutContent {
+        width: 80%;
+        /* float: right; */
+        margin: 0px auto;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .boxwrapper {
+        column-count: 2;
+        margin-left: 50px;
+        text-align: center;
+    }
+}
+
+@media (max-width:790px){
+
+    .logo {
+        /* float: left; */
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .MenuList {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:700px){
+    .Menu {
+        margin: auto;
+        background: #17c5a3;
+        text-align: center;
+    }
+    .logo {
+        /* float: left; */
+        width: 100%;
+        margin: 0px auto;
+    }
+    .MenuList {
+        /* float: right; */
+        width: 100%;
+        margin: 0px auto;
+    }
+    .boxwrapper {
+        column-count: 2;
+        margin-left: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width:650px){
+    .ServiceBox {
+        width: 220px;
+        float: left;
+        margin-right: 18px;
+    }
+
+}
+@media (max-width:540px){
+    .MenuList ul {
+        list-style: none;
+        /* display: flex; */
+        line-height: -5;
+        column-count: 3;
+        /* text-align: center; */
+    }
+    .MenuList ul li {
+        display: inline-block;
+        margin: -10px 10px;
+    }
+    .ServiceBox {
+        width: 220px;
+        float: left;
+        margin-right: 18px;
+    }
+}
